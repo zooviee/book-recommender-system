@@ -1,0 +1,13 @@
+prefix=/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/Book Recommender Systemn/env
+exec_prefix=/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/Book Recommender Systemn/env
+libdir=/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/Book Recommender Systemn/env/lib
+sharedlibdir=/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/Book Recommender Systemn/env/lib
+includedir=/Users/oluwaseyiakinsanya/Desktop/Predictive_Analytics/Book Recommender Systemn/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
